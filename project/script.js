@@ -14,9 +14,15 @@ for(let i = 0; i < 256; i++){
 const paintBox = document.querySelectorAll(".box");
 let nodeArray = Array.from(paintBox);
 
+let mouseDown = false;
+document.body.onmousedown = () => (mouseDown = true)
+document.body.onmouseup = () => (mouseDown = false) 
+
 nodeArray.forEach((box)=>{
     box.addEventListener('mousemove', ()=>{
-        box.classList.add("painted");
+        if(mouseDown === true){
+            box.classList.add("painted");
+        }
     })
 })
 
