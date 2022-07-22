@@ -15,7 +15,7 @@ const paintBox = document.querySelectorAll(".box");
 let nodeArray = Array.from(paintBox);
 
 nodeArray.forEach((box)=>{
-    box.addEventListener('click', ()=>{
+    box.addEventListener('mousemove', ()=>{
         box.classList.add("painted");
     })
 })
