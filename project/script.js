@@ -1,5 +1,6 @@
 const body = document.body;
 const bodyDiv = document.querySelector('.bodyDiv');
+const gridDiv = document.querySelector('.gridDiv');
 const buttonEraser = document.querySelector('#eraser');
 const buttonColor = document.querySelector('#color');
 const buttonClear = document.querySelector('#clear');
@@ -8,7 +9,7 @@ let isColor = true;
 let isEraser = false;
 
 let grid = document.createElement('div');
-bodyDiv.append(grid);
+gridDiv.appendChild(grid);
 grid.className = 'grid';
 
 for(let i = 0; i < 256; i++){
