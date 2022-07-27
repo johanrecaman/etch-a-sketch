@@ -3,6 +3,8 @@
 <p align="center">This is a web project made with HTML, CSS and JavaScript for studying purposes</p>
 <p align="center">This app is on V1.0</p>
 
+<img src="./liveserver.png"></img>
+
 ### Tools
 
 The following tools have been used in the project:
@@ -18,6 +20,9 @@ Made by Johan Stromberg :fire:
 
 [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/_johanrecaman_)](https://twitter.com/_johanrecaman_)
 [![Instagram Badge](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_johanrecaman_)
+
+---
+[Live Server](https://logzin.github.io/etch-a-sketch/)
 
 <h4 align="center">
   🚧  Work In Progress...  🚧
